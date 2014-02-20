@@ -12,6 +12,18 @@ $(function(){
 				$('#category-list').show();
 			}
 		});
+		// var widthHead = $('.swiper-slide h3').innerWidth();
+		// var widthSwiper = $('.swiper-slide').innerWidth();
+		// console.log(widthSwiper);
+		// $('.swiper-slide').innerWidth(widthHead);
+
+		// setTimeout(function(){
+		// 	var headingWidth = $('.emote-v2-header .swiper-slide.swiper-slide-active').innerWidth();
+		// 	//alert(headingWidth);
+		// 	$('.emote-v2-header .swiper-slide.swiper-slide-active').css('width', headingWidth-45);
+		// }, 2000);
+		
+
 
 		$('#share-emote').click(function(){
 			if ($(this).hasClass("button-on"))
